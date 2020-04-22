@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT visits (visit)+>
+<!ELEMENT visit (ip, date, (#CDATA|visitor))>
+<!ELEMENT visitor (link?, platform, browser+)>
+<!ELEMENT ip #PCDATA>
+<!ELEMENT date #PCDATA>
+<!ELEMENT link #PCDATA>
+<!ELEMENT platform #CDATA>
+<!ELEMENT browser #CDATA>
+
+<!ATTLIST platform type PCDATA #REQUIRED>

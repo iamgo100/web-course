@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<! DOCTYPE statistics PUBLIC "---" "xml_3.dtd">
+<statistics>
+    <mostFrequentIP>005.144.096.251</mostFrequentIP>
+    <visits>
+        <stationaryPlatform>
+            <windows>87</windows>
+            <linux>8</linux>
+            <macintosh>6</macintosh>
+        </stationaryPlatform>
+        <mobilePlatform>
+            <iphone>5</iphone>
+            <android>10</android>
+        </mobilePlatform>
+        <otherVisitors>4</otherVisitors>
+    </visits>
+    <ips>
+        <ip addr="005.144.096.251" frequency="13" />
+        <ip addr="077.234.203.101" frequency="11" />
+        <ip addr="005.164.066.173" frequency="6" />
+        <ip addr="094.019.018.060" frequency="4" />
+        <ip addr="095.055.141.178" frequency="3" />
+    </ips>
+</statistics>

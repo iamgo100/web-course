@@ -1,0 +1,70 @@
+body {
+    font-family: "Dejavu Sans", Arial, sans-serif;
+}
+h1 {
+    font-weight: normal;
+}
+.btn {
+    border: solid 1px #094d91;
+    border-radius: 2px;
+    background-color: #2981d8;
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "Segoe UI", "Dejavu Sans", Arial, sans-serif;;
+}
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(38, 38, 38, 0.7);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.modal.open {
+    display: flex;
+}
+.modal-content {
+    display: block;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: -15px;
+    right: -25px;
+    color: lavender;
+    font-size: 20px;
+}
+#cont img, .close, .btn:hover {
+    cursor: pointer;
+}
+#cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cont {
+    display: none;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+#cont.open {
+    display: flex;
+}
+#cont li {
+    display: inline-flex;
+    border: solid 2px #63696f;
+    margin: 5px;
+    height: 175px;
+    width: 175px;
+    border-radius: 2px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}

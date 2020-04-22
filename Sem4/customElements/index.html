@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Кастомные элементы</title>
+    </head>
+    <body>
+        <!-- https://kodaktor.ru/compo2_b7e42 -->
+        <h1>Кастомные элементы</h1>
+        <template id="tpl">
+            <style>:host {cursor: pointer; border: solid 1px #686868; border-radius: 3px;
+                font-size: 20px; padding: 5px; margin: 2px; user-select: none}</style>
+            <span>&#129093;<slot name="val"></slot></span>
+        </template>
+        <x-cntr><span slot="val">1</span></x-cntr>
+        <x-cntr><span slot="val">16</span></x-cntr>
+        <script src="customElements.js"></script>
+    </body>
+</html>

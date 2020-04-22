@@ -1,0 +1,121 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "required": [
+        "table"
+    ],
+    "properties": {
+        "table": {
+            "$id": "#/properties/table",
+            "type": "array",
+            "title": "The Table Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "items": {
+                "$id": "#/properties/table/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "studentsName": "Иванов",
+                        "mark": {
+                            "Графика": "5",
+                            "Веб-дизайн": "3",
+                            "Мультимедия": "3"
+                        }
+                    },
+                    {
+                        "studentsName": "Петрова",
+                        "mark": {
+                            "Графика": "5",
+                            "Веб-дизайн": "4",
+                            "Логика": "5",
+                            "Мультимедия": "3"
+                        }
+                    },
+                    {
+                        "studentsName": "Сидоренко",
+                        "mark": {
+                            "Веб-дизайн": "4",
+                            "Логика": "4",
+                            "Мультимедия": "3",
+                            "Графика": "5"
+                        }
+                    }
+                ],
+                "required": [
+                    "studentsName",
+                    "mark"
+                ],
+                "properties": {
+                    "studentsName": {
+                        "$id": "#/properties/table/items/properties/studentsName",
+                        "type": "string",
+                        "title": "The Studentsname Schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Иванов"
+                        ]
+                    },
+                    "mark": {
+                        "$id": "#/properties/table/items/properties/mark",
+                        "type": "object",
+                        "title": "The Mark Schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Веб-дизайн": "3",
+                                "Мультимедия": "3",
+                                "Графика": "5"
+                            }
+                        ],
+                        "required": [
+                            "Мультимедия",
+                            "Веб-дизайн",
+                            "Графика"
+                        ],
+                        "properties": {
+                            "Мультимедия": {
+                                "$id": "#/properties/table/items/properties/mark/properties/Мультимедия",
+                                "type": "string",
+                                "title": "The Мультимедия Schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "3"
+                                ]
+                            },
+                            "Веб-дизайн": {
+                                "$id": "#/properties/table/items/properties/mark/properties/Веб-дизайн",
+                                "type": "string",
+                                "title": "The Веб-дизайн Schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "3"
+                                ]
+                            },
+                            "Графика": {
+                                "$id": "#/properties/table/items/properties/mark/properties/Графика",
+                                "type": "string",
+                                "title": "The Графика Schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "5"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

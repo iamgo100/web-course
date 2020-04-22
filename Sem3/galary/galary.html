@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+ </head>
+ <body>
+    <script>{
+      //https://kodaktor.ru/?!=2db5e20_12b9e 
+      console.clear();
+      new Clicker(async () => {
+      
+      const mime = 'text/html';
+      const p = new DOMParser();
+      const f = x => x.text();
+
+      const doc = p.parseFromString(await fetch('/g/books_e713b').then(f), mime);
+      const gBooks = doc.querySelectorAll('img1');
+             
+      const gTable = document.body
+      .appendChild(document.createElement('table'));
+             
+      gBooks.forEach(x => {
+      
+      const gTr = gTable
+      .appendChild(document.createElement('tr'));
+      const gTd = gTr
+      .appendChild(document.createElement('td'));
+
+      const imageNameMini = x.querySelector('small1').textContent;
+      const imageNameBig = x.querySelector('big1').textContent;
+      
+      const newImage = document.createElement('img');
+      const imageName = imageNameMini;
+         
+      newImage.src = newImage.title = imageName;
+
+      gTd.appendChild(newImage);
+      newImage.addEventListener('click', ({ target: t }) => {
+      t.src = imageNameBig;});
+      });
+    }, caption='Открыть галерею');      
+  }
+  </script>
+ </body>
+</html>

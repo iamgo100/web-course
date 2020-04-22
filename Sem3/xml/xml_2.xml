@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<! DOCTYPE portfolio PUBLIC "---" "xml_2.dtd">
+<portfolio>
+    <competencies>
+        <competency in = "HTML" value = "not bad" />
+        <competency in = "CSS" value = "worst, i found out about this recently" />
+        <competency in = "JS" value = "not bad since i begin to learn it" />
+        <competency in = "DOM" value = "so so" />
+    </competencies>
+</portfolio>

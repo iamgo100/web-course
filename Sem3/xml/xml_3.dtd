@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT statistics (mostFrequentIP, visits, ips)>
+<!ELEMENT visits (stationaryPlatform, mobilePlatform, otherVisitors)>
+<!ELEMENT stationaryPlatform (windows, linux, macintosh)>
+<!ELEMENT mobilePlatform (iphone, android)>
+<!ELEMENT ips (ip+)>
+<!ELEMENT mostFrequentIP #CDATA>
+<!ELEMENT otherVisitors #PCDATA>
+<!ELEMENT windows #PCDATA>
+<!ELEMENT linux #PCDATA>
+<!ELEMENT macintosh #PCDATA>
+<!ELEMENT iphone #PCDATA>
+<!ELEMENT android #PCDATA>
+<!ELEMENT ip EMPTY>
+
+<!ATTLIST ip addr CDATA #REQUIRED>
+<!ATTLIST ip frequency PCDATA #REQUIRED>

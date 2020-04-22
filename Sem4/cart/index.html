@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="cart.css">
+    </head>
+    <body>
+        <div class="cont">
+            <div class="gds">
+                <div class="item" draggable="true" data-id="1">
+                    <span class="gd">Кофта</span>
+                    <span class="cost">$150</span>
+                </div>
+                <div class="item" draggable="true" data-id="2">
+                    <span class="gd">Джинсы</span>
+                    <span class="cost">$350</span>
+                </div>
+                <div class="item" draggable="true" data-id="3">
+                    <span class="gd">Кроссы</span>
+                    <span class="cost">$400</span>
+                </div>
+                <div class="item" draggable="true" data-id="4">
+                    <span class="gd">Сумка</span>
+                    <span class="cost">$1500</span>
+                </div>
+            </div>
+            <div class="cart-module">
+                <div id="cart-cost">
+                    <span>Cost:</span>
+                    <span id="total-cost">$0</span>
+                </div>
+                <div class="cart"></div>
+                <div id="limit">
+                    <span class="credit-modal">Кредит превышен!</span>
+                    <span>Limit:<br />$2000</span>
+                </div>
+            </div>
+        </div>
+        <script src="cart.js"></script>
+    </body>
+</html>

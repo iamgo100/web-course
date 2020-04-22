@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<! DOCTYPE visits PUBLIC "---" "xml_33.dtd">
+<visits>
+    <visit>
+        <ip>083.102.198.041</ip>
+        <date>-[08/Sep :03:32]</date>
+        <visitor>
+            <platform type="stationary">(Macintosh; Intel Mac OS X 10_12_5)</platform>
+            <browser>AppleWebKit/537.036</browser>
+            <browser>Chrome/60.0.3112.113</browser>
+            <browser>Safari/537.36</browser>
+        </visitor>
+    </visit>
+    <visit>
+        <ip>217.066.157.131</ip>
+        <date>-[08/Sep :13:11]</date>
+        <visitor>
+            <platform type="mobile">(iPhone; CPU iPhone OS 10_3_3 like Mac OS X)</platform>
+            <browser>AppleWebKit/603.1.030</browser>
+            <browser>CriOS/59.0.3071.102</browser>
+            <browser>Mobile/14G60</browser>
+            <browser>Safari/602.1</browser>
+        </visitor>
+    </visit>
+    <visit>
+        <ip>149.154.167.164</ip>
+        <date>-[08/Sep :13:55]</date>
+        <visitor>
+            TelegramBot (like TwitterBot)
+        </visitor>
+    </visit>
+    <visit>
+        <ip>005.018.239.169</ip>
+        <date>-[08/Sep :14:24]</date>
+        <visitor>
+            <link>"http://away.vk.com/away.php"</link>
+            <platform type="stationary">(Windows NT 6.2; WOW64)</platform>
+            <browser>AppleWebKit/537.036</browser>
+            <browser>Chrome/60.0.3112.090</browser>
+            <browser>Safari/537.036</browser>
+            <browser>OPR/47.0.2631.71</browser>
+        </visitor>
+    </visit>
+</visits>

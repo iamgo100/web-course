@@ -1,0 +1,7 @@
+.plus, .minus{
+    cursor: pointer;
+    user-select: none;
+}
+p, span{
+    cursor: default;
+}

@@ -1,0 +1,21 @@
+.inline-cont {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    zoom: 200%;
+}
+.block-cont div {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.num, .ran {
+    margin: 3px;
+}
+#isChanging {
+    border: solid 1px #666;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
