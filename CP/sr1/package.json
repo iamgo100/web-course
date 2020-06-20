@@ -2,10 +2,10 @@
   "name": "sr1",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "trans": "babel-node ./src/main.js",
+    "trans": "babel-node ./src/index.js",
     "build": "babel ./src -d ./lib"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
