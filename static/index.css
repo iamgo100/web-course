@@ -105,6 +105,10 @@ polygon {
     max-width: 600px;
     height: 400px;
 }
+hr {
+    width: 50%;
+    border: #050a58 solid 3px;
+}
 
 ::-webkit-scrollbar {
     width: 15px;
