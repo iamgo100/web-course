@@ -106,9 +106,8 @@ polygon {
     height: 400px;
 }
 hr {
-    width: 25%;
-    color: #050a58;
-    /* border: #050a58 solid 3px; */
+    width: 10%;
+    background-color: #050a58;
 }
 
 ::-webkit-scrollbar {
